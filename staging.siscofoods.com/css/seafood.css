@@ -1,0 +1,344 @@
+/* CSS
+-------------------------------------------------- */
+
+#mc_embed_signup {
+  text-align: left;
+}
+#mce-EMAIL {
+  color: #0077C8;
+}
+
+/* --- HERO IMAGE --- */
+/* Centered text */
+.centered {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.centered-secondary {
+  position: absolute;
+  top: 70%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+}
+
+.lead-font, h2, h3, li, a, p {
+  font-family: 'Futura', 'Trebuchet MS', Arial, Helvetica, sans-serif;
+}
+
+/* Container holding the image and the text */
+.container-hero {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.lead-font {
+  font-size: 72px;
+  color: #ffffff;
+  text-shadow: 1px 1px 1px #000000;
+}
+
+.lead-font-secondary {
+  font-size: 38px;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.about-lead-font {
+  font-size: 72px;
+  color: #0077C8;
+  text-align: left;
+  padding-left: 12%;
+}
+
+
+
+/* --- Container and row style --- */
+.container-light-grey {
+  position: relative;
+  text-align: center;
+  width: 100%;
+  background: #F2F2F2;
+}
+
+.container-dark-grey {
+  position: relative;
+  text-align: center;
+  width: 100%;
+  background: #ececec;
+}
+.white-row {
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+.grey-row {
+  margin-top: 35px;
+  margin-bottom: 35px;
+  background: #C1C1C1;
+  width: 100%;
+}
+
+.align-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.btn--width {
+  width: 120px;
+}
+
+.card-title {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+/*animation element sliding from left*/
+
+.animation-element {
+  opacity: 0.5;
+  position: relative;
+}
+.animation-element.slide-left {
+  opacity: 0;
+  -moz-transition: all 500ms linear;
+  -webkit-transition: all 500ms linear;
+  -o-transition: all 500ms linear;
+  transition: all 500ms linear;
+  -moz-transform: translate3d(-100px, 0px, 0px);
+  -webkit-transform: translate3d(-100px, 0px, 0px);
+  -o-transform: translate(-100px, 0px);
+  -ms-transform: translate(-100px, 0px);
+  transform: translate3d(-100px, 0px, 0px);
+}
+
+.animation-element.slide-left.in-view {
+  opacity: 1;
+  -moz-transform: translate3d(0px, 0px, 0px);
+  -webkit-transform: translate3d(0px, 0px, 0px);
+  -o-transform: translate(0px, 0px);
+  -ms-transform: translate(0px, 0px);
+  transform: translate3d(0px, 0px, 0px);
+}
+
+/*animation slide left style for div*/
+
+.animation-element.slide-left.div-slide {
+  float: left;
+  margin: 0% 1.5% 3% 1.5%;
+  padding: 15px;
+box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+}
+.animation-element.slide-left.div-slide:hover,
+.animation-element.slide-left.div-slide:active{
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+}
+
+.animation-element.slide-left.div-slide  {
+  float: left;
+  width:100%;
+  margin-bottom: 10px;
+}
+
+.animation-element.slide-left.div-slide i {
+  color: #aaa;
+  margin-right: 5px;
+}
+
+/* --- News section --- */
+.news {
+  background: white url('../img/think-seafood/seafood-homepage-secondary-banner-1280x500.png') no-repeat 0 0 / cover;
+  min-height: 450px;
+}
+.news__item {
+  background-color: white;
+  border: 4px solid #0075BE;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.news__item--green {
+  border-color: #00793E;
+}
+
+.news__title {
+  color: white;
+  background-color: #0075BE;
+  margin-top: 0;
+  padding: 20px;
+}
+
+.news__title--green {
+  background-color: #00793E;
+}
+
+.news__title--last {
+  margin-bottom: 0;
+}
+
+.news__text {
+  padding: 20px;
+}
+
+.news__date {
+  font-size: 14px;
+  padding-left: 20px;
+}
+
+/* --- Subscribe section --- */
+.subscribe {
+  background: white url('../img/think-seafood/seafood-product-margin-1280x180.png') no-repeat 0 0 / cover;
+  height: 200px;
+  color: white;
+}
+
+.subscribe-title {
+  text-shadow: 2px 2px 4px black;
+  margin-bottom: 20px;
+}
+
+/* --- footer style --- */
+footer{
+    background:#0077C8;
+    color: #ffffff;
+    border-top: 1px solid #0077C8;
+    padding-top: 25px;
+    text-transform: uppercase;
+  }
+  #sub-footer{
+      border-top: 1px solid #ddd;
+    background:#ffffff;
+    padding-top:30px;
+      margin:30px 0 0 0;
+  }
+
+  footer.h4 a, footer.h4 a:hover{
+    color: #ffffff;
+  }
+
+  #white a{
+    color: #ffffff;
+  }
+
+  #white a:hover{
+    color: #ffffff;
+    text-decoration: underline
+  }
+
+  #sub-menu-green a:hover{
+    color: #0077C8;
+    text-decoration: underline;
+  }
+
+  ul.general {
+      list-style:none;
+      margin-left:0;
+  }
+
+  ul.footer-list{
+      margin:0;
+      padding:0;
+      list-style:none;
+      float: none;
+  }
+
+  ul.footer-list li{
+      float: none;
+      margin:0;
+      padding:2px 0 2px 0;
+      list-style:none;
+  }
+
+  footer ul.footer-list li a{
+      color:#ffffff;
+  }
+  footer ul.footer-list li  {
+      color:#ffffff;
+  }
+
+  .smallprint {
+      text-align:center;
+    font-size:10px;
+    color: #0077C8;
+  }
+
+
+
+
+/* Large desktop */
+
+@media screen and (min-width: 1201px) {
+    #margin-image {
+      width: 100%;
+    }
+    .about-alignment {
+      padding-left: 15%;
+    }
+}
+
+/* Regular desktop */
+
+@media (max-width:1200px) and (min-width:992px) {
+  #margin-image {
+    width: 100%;
+  }
+}
+
+/* Phablet to tablet */
+
+@media (max-width:991px) and (min-width:568px) {
+
+.lead-font {
+  font-size: 48px;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.lead-font-secondary {
+  font-size: 38px;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px #000000;
+}
+}
+
+
+/* iPhone 6 regular 4.7 inch */
+
+@media (max-width:567px) and (min-width:321px) {
+
+.lead-font {
+  font-size: 32px;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.lead-font-secondary {
+  font-size: 32px;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px #000000;
+}
+}
+
+
+/* iPhone 5 size */
+
+@media (max-width:320px) {
+
+.lead-font {
+  font-size: 32px;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.lead-font-secondary {
+  font-size: 32px;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px #000000;
+}
+}
