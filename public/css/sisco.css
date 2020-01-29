@@ -61,7 +61,13 @@ p {
 }
 
 .sisco-nav {
-  margin-bottom: 0;
+margin-bottom: 0;
+position: fixed;
+z-index: 1;
+width: 100%;
+margin-top: 0;
+box-shadow: 0 2px 4px rgba(0,0,0,.06),0 -1px 0 rgba(0,0,0,.06);
+padding-top: 10px;
 }
 
 .sisco-nav__link {
@@ -74,6 +80,7 @@ p {
   text-align: left;
   width: 100%;
   color: white;
+	padding-top: 120px;
 }
 
 .about {
@@ -542,4 +549,16 @@ box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
   .navbar-brand {
     padding-left: 25px;
   }
+}
+
+/*29/01/2020*/
+.nav-right{float:right;}
+.social_icons{ text-align: right;}
+.social_icons .fa{color:#9c9897;font-size: 17px; font-weight: normal;border-right: 1px dashed #9c9897;padding: 5px 10px;
+}
+.social_icons .fa:hover{color:#009397;}
+.social_icons em{font-family: Arial, Helvetica, sans-serif; font-size: 13px;}
+.navbar-nav > li > a {
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
