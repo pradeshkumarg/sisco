@@ -557,10 +557,10 @@ box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
 /*29/01/2020*/
 .nav-right{float:right;}
 .social_icons{ text-align: right;}
-.social_icons .fa{color:#9c9897;font-size: 17px; font-weight: normal;border-right: 1px dashed #9c9897;padding: 5px 10px;
+.social_icons .fa{color:#9c9897;font-size: 21px; font-weight: normal;border-right: 1px dashed #9c9897;padding: 5px 10px;
 }
 .social_icons .fa:hover{color:#009397;}
-.social_icons em{font-family: Arial, Helvetica, sans-serif; font-size: 13px;}
+.social_icons em{font-family: Arial, Helvetica, sans-serif; font-size: 13px;vertical-align: middle;}
 .navbar-nav > li > a {
     padding-top: 15px;
     padding-bottom: 15px;
@@ -606,10 +606,11 @@ box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
       border: none;
       border-radius: 5px;
       cursor: pointer;
-      opacity: 0.8;
+      /*opacity: 0.8;*/
 		  margin: 10px auto;
       /*position: fixed;*/
       }
+.open-button strong:hover{ opacity: 0.8;}
       /* Hide the Popup form */
       .form-popup {
       border: 2px solid #666;
@@ -643,7 +644,7 @@ line-height: 32px;
 	.form-popup	label{ font-size:0.7rem;}
       /* Style submit/login button */
       .form-container .btn {
-      background-color: #8ebf42;
+      background-color: #009397;
       color: #fff;
       padding: 12px 20px;
       border: none;
