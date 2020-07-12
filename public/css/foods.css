@@ -1,0 +1,91 @@
+/*==============================================
+
+Common css
+
+==============================================*/
+.w-100{
+	width: 100%;
+}
+.m-0{
+	margin: 0;
+}
+
+
+
+
+/*food color variable*/
+
+:root{
+	--food-color: rgb(133, 177 ,65);
+}
+
+.food-color{
+	background-color: var(--food-color);
+}
+.food-text-color{
+	color: var(--food-color);
+}
+
+/*==============================================
+
+Main css
+
+==============================================*/
+
+.foods_parent{
+	height: 350px;
+	width: 200px;
+	margin: auto;
+}
+
+.foods_parent img{
+	height: 100%;
+	width: 100%;
+	object-fit: contain;
+}
+.food_c_img{
+	width: 50% !important;
+}
+
+#accordion div{
+	background-color: rgb(194, 204 ,6);
+
+}
+
+#accordion div:hover{
+	background-color: #b2bb08;
+}
+
+.product-description-benefits_desc li:before{
+	color: var(--food-color);	
+}
+.pro_title{
+	font-size: 28px;
+	font-weight: 700;
+}
+
+.product-description-module--product_description_table--1OAQ5 {
+  font-size: 14px
+}
+
+.product-description-module--product_description_table--1OAQ5 th {
+  text-transform: uppercase;
+  color: rgb(133, 177 ,65);
+}
+
+
+
+.flexslider .slides img{
+	width: 70%;
+}
+
+.about__text{
+	margin-bottom: 20px !important;
+}
+
+
+
+
+
+
+
